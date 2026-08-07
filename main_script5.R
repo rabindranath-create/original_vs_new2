@@ -8,7 +8,7 @@ cat("Created directory:", output_dir, "\n")
 
 source("DTvsfDT_alg.R")
 
-rho <- 1
+rho <- 0
 dt <- 5
 
 keep_trav_cost <-c()
@@ -20,7 +20,7 @@ keep_margin <-c()
 
 
 
-for(ii in 61:70){
+for(ii in 71:80){
   
   obs_gen_para <- read.csv(paste0("pattern/rho_", rho, "_", ii, ".csv"))
   the_result <- fDT_Alg_Save(obs_gen_para, dt)
