@@ -8,7 +8,7 @@ cat("Created directory:", output_dir, "\n")
 
 source("DTvsfDT_alg.R")
 
-rho <- 0.5
+rho <- 0.75
 dt <- 5
 
 keep_trav_cost <-c()
