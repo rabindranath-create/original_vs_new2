@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         script: [
-           "1", "5", "10", "15", "20", "25", "30", "35", "40", "45", "50"
+           "50"
         ]
 
     name: Run main_script${{ matrix.script }}.R
